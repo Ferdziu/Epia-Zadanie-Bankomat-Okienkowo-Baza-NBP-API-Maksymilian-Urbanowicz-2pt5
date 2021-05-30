@@ -1,0 +1,5 @@
+create table if not exists Kontakty_Telefon (
+    ID integer primary key autoincrement,
+	Nazwa varchar(50),
+	Nr_Telefonu char(9)
+);
